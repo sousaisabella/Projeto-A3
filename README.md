@@ -6,6 +6,6 @@ Objetivo: Desenvolver sistema de agendamento de consultas a clínica médica des
 
 Alunas: 
 
-Julia Antonia Ferreira Martins RA:822144021
+Julia Antonia Ferreira Martins RA: 822144021
 
 Isabella Maria Ferreira de Sousa RA: 821241537
