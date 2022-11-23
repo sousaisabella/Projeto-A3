@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+
+  ubuntu:
+    build: 
+      dockerfile: ./Dockerfile
+      context: .
+    working_dir: /opt/projeto_a3
+    command: node index.js
+    container_name: ubuntu_a3
+    volumes:
+      - ./:/opt/projeto_a3
+    ports:
+        - "4000:4000"
+    stdin_open: true
+    tty: true

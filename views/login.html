@@ -21,7 +21,7 @@
     <div class="container" id="nav-container">
       <!--Navbar-->
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="login">
           <img id="logo" src="img/logoservir.png" alt="Psicologia"> Servir Psicologia
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,29 +29,31 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" id="home-menu" href="index.html">Home</span></a>
+            <a class="nav-item nav-link" id="home-menu" href="agendar">Home</span></a>
             <a class="nav-item nav-link" id="about-menu" href="#">Sobre Nós</a>
             <a class="nav-item nav-link" id="team-menu" href="#">Time</a>
             <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
-            <a class="nav-item nav-link" id="login-menu" href="login.html">Login</a>
+            <a class="nav-item nav-link" id="login-menu" href="login">Login</a>
           </div>
         </div>
       </nav>
     </div>
   </header>
   <main>
+    <form method="post">
     <div class="main-login">
         <div class="account-box">
             <h2>Login</h2>
             <div class="textfield">
                 <label>E-mail</label>
-                <input type="email" class="input-email" required placeholder="Digite o seu e-mail">
+                <input type="email" name="email" class="input-email" required placeholder="Digite o seu e-mail">
                 <label>Senha</label>
-                <input type="password" class="input-senha" required placeholder="Digite a sua senha">
+                <input type="password" name="password" class="input-senha" required placeholder="Digite a sua senha">
             </div>
             <button class="btn-login">Acessar</button>
         </div>
     </div>
+  </form>
   </main>
   <!-- Rodapé -->
   <footer>
