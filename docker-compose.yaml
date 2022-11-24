@@ -7,7 +7,7 @@ services:
       dockerfile: ./Dockerfile
       context: .
     working_dir: /opt/projeto_a3
-    command: node index.js
+    command: node /opt/projeto_a3/index.js
     container_name: ubuntu_a3
     volumes:
       - ./:/opt/projeto_a3
