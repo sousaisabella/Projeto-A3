@@ -23,3 +23,8 @@ Em seguida acessar o endereco: 127.0.0.1:4000
 Para desconstrur o container execute o comando:
     
     docker-compose down
+    
+    
+    
+### Link para acesso ao vídeo:
+    https://youtu.be/D_jh3gg-_C0
